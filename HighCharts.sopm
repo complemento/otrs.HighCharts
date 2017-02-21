@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>HighCharts</Name>
+    <Version>5.3.6</Version>
+    <Vendor>Complemento [Free]</Vendor>
+    <URL>http://www.complemento.net.br/</URL>
+    <License>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</License>
+    <Description Lang="en">HighChart Library for OTRS. This is used by other AddOns such as AccountedTime or Dashboards from Complemento</Description>
+    <IntroInstall Type="pre" Lang="en" Title="Tutorial">HighChart Library for OTRS. This is used by other AddOns such as AccountedTime or Dashboards from Complemento</IntroInstall>
+    <Filelist>
+        <File Permission="644" Location="HighCharts.sopm"></File>
+        <File Permission="644" Location="Kernel/Config/Files/Ligero.HighCharts.xml"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/adapters/mootools-adapter.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/adapters/mootools-adapter.src.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/adapters/prototype-adapter.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/adapters/prototype-adapter.src.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/highcharts.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/highcharts-more.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/highcharts.src.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/modules/canvas-tools.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/modules/canvas-tools.src.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/modules/data.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/modules/data.src.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/modules/exporting.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/modules/exporting.src.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/modules/no-data-to-display.src.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/modules/drilldown.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/themes/dark-blue.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/themes/dark-green.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/themes/gray.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/themes/grid.js"></File>
+        <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/themes/skies.js"></File>
+    </Filelist>
+</otrs_package>
