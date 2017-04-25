@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otrs_package version="1.0">
     <Name>HighCharts</Name>
-    <Version>5.3.6</Version>
+    <Version>5.3.7</Version>
     <Vendor>Complemento [Free]</Vendor>
     <URL>http://www.complemento.net.br/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</License>
+    <Framework>5.0.x</Framework>
     <Description Lang="en">HighChart Library for OTRS. This is used by other AddOns such as AccountedTime or Dashboards from Complemento</Description>
     <IntroInstall Type="pre" Lang="en" Title="Tutorial">HighChart Library for OTRS. This is used by other AddOns such as AccountedTime or Dashboards from Complemento</IntroInstall>
     <Filelist>
-        <File Permission="644" Location="HighCharts.sopm"></File>
+        <File Permission="644" Location="Custom/HighCharts.sopm"></File>
         <File Permission="644" Location="Kernel/Config/Files/Ligero.HighCharts.xml"></File>
         <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/adapters/mootools-adapter.js"></File>
         <File Permission="644" Location="var/httpd/htdocs/js/thirdparty/highcharts/adapters/mootools-adapter.src.js"></File>
