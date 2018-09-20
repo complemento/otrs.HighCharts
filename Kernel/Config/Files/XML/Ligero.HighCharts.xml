@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
-<otrs_config version="1.0" init="Config">
-    <ConfigItem Name="Loader::Agent::CommonJS###312-ComplementoDashboards" Required="1" Valid="1">
+<otrs_config version="2.0" init="Config">
+    <Setting Name="Loader::Agent::CommonJS###312-ComplementoDashboards" Required="1" Valid="1">
         <Description Translatable="1">List of JS files to always be loaded for the agent interface.</Description>
-        <Group>Framework</Group>
-        <SubGroup>Core::Web</SubGroup>
-        <Setting>
+        <Navigation>Frontend::Base</Navigation>
+        <Value>
             <Array>
                 <Item>thirdparty/highcharts/highcharts.js</Item>
                 <Item>thirdparty/highcharts/highcharts-more.js</Item>
@@ -12,13 +11,12 @@
                 <Item>thirdparty/highcharts/modules/no-data-to-display-src.js</Item>
                 <Item>thirdparty/highcharts/modules/drilldown.js</Item>
             </Array>
-        </Setting>
-    </ConfigItem>
-    <ConfigItem Name="Loader::Customer::CommonJS###312-ComplementoDashboards" Required="1" Valid="1">
+        </Value>
+    </Setting>
+    <Setting Name="Loader::Customer::CommonJS###312-ComplementoDashboards" Required="1" Valid="1">
         <Description Translatable="1">List of JS files to always be loaded for the agent interface.</Description>
-        <Group>Framework</Group>
-        <SubGroup>Core::Web</SubGroup>
-        <Setting>
+        <Navigation>Frontend::Base</Navigation>
+        <Value>
             <Array>
                 <Item>thirdparty/highcharts/highcharts.js</Item>
                 <Item>thirdparty/highcharts/highcharts-more.js</Item>
@@ -26,8 +24,6 @@
                 <Item>thirdparty/highcharts/modules/no-data-to-display-src.js</Item>
                 <Item>thirdparty/highcharts/modules/drilldown.js</Item>
             </Array>
-        </Setting>
-    </ConfigItem>
+        </Value>
+    </Setting>
 </otrs_config>
-
-
